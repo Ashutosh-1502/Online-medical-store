@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .billing-address input {
+            height: 2rem;
+            width: 20rem;
+            padding-left: 1rem;
+            border: none;
+            outline: none;
+            border-radius: 0.2rem;
+            font-family: Futura, Trebuchet MS, Arial, sans-serif;
+            color: #618264;
+        }
+    </style>
+    <style>
+        .Payment input {
+            padding-left: 1rem;
+            border-radius: 0.2rem;
+            height: 1.5rem;
+            border: none;
+            outline: none;
+            font-family: Futura, Trebuchet MS, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <main class="Payment-1">
+        <section class="Payment-2">
+            <div class="billing-address">
+                <h2 style="font-family: Futura, Trebuchet MS, Arial, sans-serif;">Billing Address</h2>
+                <input type="text" name="name" placeholder="Enter Name">
+                <input type="email" name="emailid" placeholder="Enter Email">
+                <input type="text" name="state" placeholder="Enter State">
+                <input type="text" name="address1" placeholder="Address Line 1">
+                <input type="text" name="address2" placeholder="Address Line 2">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="pincode" placeholder="Pin Code">
+                <input type="text" name="phoneno" placeholder="Phone Number">
+                <a href="sales.html"><button
+                        style="width: 100%; border: none; outline: none; background-color: #79AC78; padding: 1rem 1rem 1rem 1rem; font-family: Futura, Trebuchet MS, Arial, sans-serif;"
+                        class="sell-meds"><b><-Back </b></button></a>
+            </div>
+            <div class="Payment">
+                <h3 style="font-size: 1.5rem;">Payment</h3>
+                <div
+                    style="display: flex; flex-direction: column; row-gap: 1.2rem; background-color: rgba(79, 112, 156,0.3); padding: 1rem 1rem 1rem 1rem; border-radius: 0.5rem;" class="online-mode">
+                    <label>Online Mode</label>
+                    <label>Card Number</label>
+                    <input type="text" name="card" placeholder="Card Number" style="width: 20rem;">
+                    <label>Expiry Date</label>
+                    <div>
+                        <input type="text" name="valiid-to" placeholder="Month" style="width: 30%;">
+                        <input type="text" name="year" placeholder="Year" style="width: 26%;">
+                    </div>
+                    <label>Security Code</label>
+                    <input type="text" name="code" placeholder="Enter Security Code" style="width: 20rem;"">
+                   
+                <h3>-----------------------------or------------------------------</h3>
+                <div style=" display: flex; flex-direction: row; justify-content: center;">
+                    <label
+                        style="display: flex; flex-direction: row; justify-content:space-around; align-items: center; background-color: #E5D283; width: 15rem; letter-spacing: 2px; border-radius: 0.5rem; font-family: Futura, Trebuchet MS, Arial, sans-serif; height: 2rem;"><input
+                            type="checkbox" name="cod">Cash on Delivery</label>
+                </div>
+                <div style=" display: flex; flex-direction: row; justify-content: center;">
+                    <a href="paymentfinal.html"><button
+                            style="width: 100%; border: none; outline: none; background-color: #79AC78; padding: 1rem 1rem 1rem 1rem; font-family: Futura, Trebuchet MS, Arial, sans-serif;"
+                            class="sell-meds"><b>Pay
+                                and Place Order</b></button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

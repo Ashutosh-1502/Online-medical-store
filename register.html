@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-image: url('locations.png'); background-size: 100vw 100vh; background-repeat: no-repeat; margin: 0;">
+    <main
+        style="display: flex; flex-direction: row; justify-content: center; align-items: center; height: 100vh; background-color: rgba(255, 254, 250, 0.4);">
+        <section class="Register">
+            <h2 style="text-align: center;">Welcome to MediCare</h2>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" class="first-last">
+                <input type="text" name="first-name" placeholder="First Name">
+                <input type="text" name="last-name" placeholder="Last Name">
+            </div>
+            <div style="display: flex; flex-direction: column; row-gap: 1rem;" class="reg-details">
+                <input type="text" name="username" placeholder="Mobile Number or Email">
+                <input type="password" name="password" placeholder="Password" minlength="4" maxlength="8">
+                <input type="password" name="confirm-pass" placeholder="Confirm Password">
+            </div>
+            <label>Date of Birth</label>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" class="dob">
+                <input type="text" name="date" placeholder="Date">
+                <input type="text" name="month" placeholder="Month">
+                <input type="text" name="year" placeholder="Year">
+            </div>
+            <label>Gender</label>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" class="gender">
+                <label>Male <input type="radio" name="gender"></label>
+                <label>Female <input type="radio" name="gender"></label>
+                <label>Other <input type="radio" name="gender"></label>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <input type="checkbox" name="toc">
+                <label>&nbsp&nbspTerms and Condition</label>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: center;">
+                <a href="index.html"><button
+                        style="width: 7rem; height: 2rem; border-radius: 0.5rem; border: none; outline: none; background-color: green; font-family: Futura, Trebuchet MS, Arial, sans-serif; color: white;"
+                        class="sell-meds">Register</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
