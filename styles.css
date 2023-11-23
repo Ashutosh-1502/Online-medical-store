@@ -158,12 +158,13 @@
 .input-image {
     width: 10rem;
     height: 3rem;
-    transition: all 0.5s;
-    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+    /* border-radius: 1rem; */
 }
 
 .input-image:hover {
-    box-shadow: 1px 1px 1px 2px #0F0F0F;
+    /* box-shadow: 1px 1px 1px 2px #0F0F0F; */
+    scale: 1.05;
 }
 
 .discover {
@@ -195,7 +196,7 @@
 
 .heading-2 h2,
 a {
-    font-family: Arial Narrow, Arial, sans-serif;
+    /* font-family: Arial Narrow, Arial, sans-serif; */
     text-decoration: none;
 }
 
@@ -347,7 +348,7 @@ footer {
     /* background-color: greenyellow; */
     border: 2px solid cyan;
     border-radius: 1rem;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(20px);
 }
 
 .form-login {
@@ -379,13 +380,13 @@ footer {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
-    /* background-color: white; */
-    border-radius: 0.5rem;
+    /* background-color: rgba(255,255,255,0.1); */
+    border-radius: 0.8rem;
     outline: none;
-    border: none;
-    box-shadow: 2px 2px 5px 3px #EEEEEE;
+    /* border: 2px solid cyan; */
+    /* box-shadow: 2px 2px 5px 3px #EEEEEE; */
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(120px);
     /* background-color: green; */
 
 }
@@ -587,7 +588,7 @@ footer {
 }
 
 .nav-button:hover{
-    background-color: rgb(46, 233, 36);
+    background-color: rgba(46, 233, 36,0.5);
     border-radius: 5px;
     transition: all 0.3s ease-in;
 }
